@@ -16,7 +16,7 @@
 #             seen.add(n)       
 #         return False
 
-
+#optimal solution 
 class Solution:
     def containsDuplicate(self, nums):
         return False if len(nums)==len(set(nums)) else True
