@@ -9,7 +9,7 @@ class Solution:
                 if third in myset:
                     temp = [arr[i],arr[j],third]
                     temp.sort()
-                    result.add(tuple(temp))
+                    result.add(tuple(temp)) 
                 myset.add(arr[j])
         return [list(ans) for ans in result]
     
